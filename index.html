@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Betta Paradise - Peces Betta Premium</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f5f8ff;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(135deg,#004aad,#00bfff);
+    color:white;
+    padding:80px 10%;
+}
+
+.hero{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:40px;
+}
+
+.hero-text{
+    max-width:600px;
+}
+
+.hero h1{
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:1.1rem;
+    margin-bottom:30px;
+    line-height:1.7;
+}
+
+.btn{
+    display:inline-block;
+    background:#25D366;
+    color:white;
+    padding:15px 30px;
+    text-decoration:none;
+    border-radius:50px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+.hero-image img{
+    width:450px;
+    max-width:100%;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.2);
+}
+
+section{
+    padding:80px 10%;
+}
+
+.section-title{
+    text-align:center;
+    font-size:2.2rem;
+    margin-bottom:50px;
+    color:#004aad;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+.feature{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.feature h3{
+    margin:15px 0;
+    color:#004aad;
+}
+
+.catalog{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:20px;
+}
+
+.card h3{
+    color:#004aad;
+    margin-bottom:10px;
+}
+
+.price{
+    font-size:1.5rem;
+    color:#00a86b;
+    font-weight:bold;
+    margin:15px 0;
+}
+
+.about{
+    display:flex;
+    gap:50px;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.about img{
+    width:500px;
+    max-width:100%;
+    border-radius:20px;
+}
+
+.about-text{
+    flex:1;
+}
+
+.about-text p{
+    line-height:1.8;
+    margin-bottom:15px;
+}
+
+.cta{
+    background:linear-gradient(135deg,#004aad,#00bfff);
+    color:white;
+    text-align:center;
+    border-radius:30px;
+    padding:70px 30px;
+}
+
+.cta h2{
+    margin-bottom:20px;
+    font-size:2.5rem;
+}
+
+footer{
+    background:#0d1b2a;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+footer p{
+    opacity:.8;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <div class="hero">
+        <div class="hero-text">
+            <h1>Peces Betta Premium</h1>
+            <p>
+                Descubre la belleza y elegancia de nuestros peces Betta.
+                Colores vibrantes, genética seleccionada y peces saludables
+                listos para convertirse en la estrella de tu acuario.
+            </p>
+
+            <a href="https://wa.me/18090000000" class="btn">
+                Comprar por WhatsApp
+            </a>
+        </div>
+
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1524704796725-9fc3044a58b2?w=900" alt="Pez Betta">
+        </div>
+    </div>
+</header>
+
+<section>
+    <h2 class="section-title">¿Por qué elegir nuestros Bettas?</h2>
+
+    <div class="features">
+        <div class="feature">
+            <h3>🐟 Genética Premium</h3>
+            <p>Seleccionamos ejemplares con colores intensos y aletas espectaculares.</p>
+        </div>
+
+        <div class="feature">
+            <h3>❤️ Peces Saludables</h3>
+            <p>Todos nuestros peces pasan por controles de salud antes de la entrega.</p>
+        </div>
+
+        <div class="feature">
+            <h3>🚚 Entrega Segura</h3>
+            <p>Empaque especializado para minimizar el estrés durante el transporte.</p>
+        </div>
+
+        <div class="feature">
+            <h3>📚 Asesoría Gratuita</h3>
+            <p>Te ayudamos con alimentación, cuidados y mantenimiento.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">Nuestros Bettas Más Populares</h2>
+
+    <div class="catalog">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1522069169874-c58ec4b76be5?w=800" alt="">
+            <div class="card-content">
+                <h3>Betta Halfmoon Azul</h3>
+                <p>Aletas amplias y color azul eléctrico.</p>
+                <div class="price">US$25</div>
+                <a href="https://wa.me/18090000000" class="btn">Consultar</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800" alt="">
+            <div class="card-content">
+                <h3>Betta Koi Galaxy</h3>
+                <p>Patrones únicos inspirados en los peces koi japoneses.</p>
+                <div class="price">US$40</div>
+                <a href="https://wa.me/18090000000" class="btn">Consultar</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1560275619-4662e36fa65c?w=800" alt="">
+            <div class="card-content">
+                <h3>Betta Crowntail</h3>
+                <p>Impresionantes aletas en forma de corona.</p>
+                <div class="price">US$30</div>
+                <a href="https://wa.me/18090000000" class="btn">Consultar</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <div class="about">
+        <img src="https://images.unsplash.com/photo-1571752726703-5e7d1f6a9b6d?w=900" alt="Acuario">
+
+        <div class="about-text">
+            <h2 class="section-title" style="text-align:left;">
+                Sobre los Peces Betta
+            </h2>
+
+            <p>
+                Los Bettas son peces tropicales conocidos por sus colores
+                vibrantes y personalidad única. Son ideales para acuarios
+                pequeños y medianos cuando reciben los cuidados adecuados.
+            </p>
+
+            <p>
+                Requieren agua limpia, alimentación balanceada y un ambiente
+                tranquilo para mostrar todo su potencial y belleza.
+            </p>
+
+            <p>
+                Con el mantenimiento adecuado pueden vivir entre 3 y 5 años.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="cta">
+        <h2>Encuentra tu Betta Ideal Hoy</h2>
+        <p style="margin-bottom:30px;">
+            Contáctanos y recibe asesoría personalizada para elegir el pez perfecto.
+        </p>
+
+        <a href="https://wa.me/18090000000" class="btn">
+            Hablar por WhatsApp
+        </a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Betta Paradise - Peces Betta Premium</p>
+</footer>
+
+</body>
+</html>
